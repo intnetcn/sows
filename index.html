@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>沐光搜索-综合搜索</title>
+	<base target="_blank">
+	<meta http-equiv="Cache-Control" content="max-age=3600">
+	<meta name="keywords" content="沐光搜索,综合搜索,搜索引擎大全,网址导航,简易搜索,简易导航">
+	<meta name="description"
+		content="沐光搜索,综合搜索引擎,整合谷歌搜索、百度搜索、搜狗搜索、网址导航等国内外常用网址,提供一站式的搜索引擎大全,简洁方便,欢迎收藏使用！">
+	<link href="css/ilive.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/cookies.js"></script>
+
+</head>
+
+<body>
+	<div id="topbox">
+		<div id="top">
+			<div id="homepage">
+				<a onClick="SetHome(this,window.location)">设为主页</a> |
+				<a onClick="shoucang(document.title,window.location)">收藏本站</a>
+			</div>
+			<ul id="set">
+				<li class="email">
+					<label id="down-arrow">
+						<select id="modeSel" onchange="setMode(this)" name="select">
+							<option value="" >白天模式</option>
+							<option value="night" selected>黑夜模式</option>
+						</select>
+					</label>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrap">
+		<div id="search">
+			<div id="header">
+				<div class="logo clearfix"><a id="logo" title="默认logo"><img id="logoimg" src="images/logo.png"></a></div>
+				<div class="weather clearfix"><iframe width="400" scrolling="no" height="70" frameborder="0"
+						allowtransparency="true"
+						src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=3&t=1&v=2&d=2&bd=0&k=&f=&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=54511&w=420&h=60&align=center"></iframe>
+				</div>
+				<div class="date" id="date-box"></div>
+			</div>
+			<div class="clearfix" id="sm">
+				<ul id="sm_tab">
+					<li class="active" s_tab="js_type_2" default="1" style="display: none;">网 页</li>
+				</ul>
+			</div>
+			<div class="box">
+				<div class="content">
+					<a href="http://www.net.wang"><img height=25 src="images/net.png" width=70 rel="img"></a>
+					<a href="http://www.185.info/"><img height=25 src="images/185.png" width=70 rel="img"></a>
+					<a href="https://www.zc.biz/"><img height=25 src="images/zc.png" width=70 rel="img"></a>
+					<a href="http://www.zcze.net/"><img height=25 src="images/zcze.png" width=70 rel="img"></a>
+					<a href="https://www.49.net.cn/"><img height=25 src="images/49.png" width=70 rel="img"></a>
+					<a href="https://4.tw.cn"><img height=25 src="images/4.png" width=70 rel="img"></a>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div class="clearfix" id="sb">
+				<div id="js_type_2">
+					<div class="sf">
+						<form action= method=get target=_blank>
+							<a id=sf_label href="" rel=lk><img height=35 src="images/logo.png" width=105
+									rel="img"></a>
+							<input class=int name=q rel="kw" autocomplete="off">
+							<input class=searchint type=submit value="生活万事搜" rel="btn">
+							<div class="ctrl">
+								<script>
+									document.write('<label><input class=radio type=radio value="wikihow" CHECKED onChange=setCookie(\'wikihow\') name=search_select rad="wikihow">生活万事搜</label>'); document.write('<label><input class=radio type=radio value="baidu" name=search_select rad="baidu">百度</label>'); document.write('<label><input class=radio type=radio value="bing" onChange="setCookie(\'bing\')" name=search_select rad="bing">必应</label>'); document.write('<label><input class=radio type=radio value="sogou" onChange="setCookie(\'sogou\')" name=search_select rad="sogou">搜狗</label>'); document.write('<label><input class=radio type=radio value="yandex"  onChange="setCookie(\'yandex\')" name=search_select rad="yandex">Yandex</label>');document.write('<label><input class=radio type=radio value="google" name=search_select rad="google">google</label>');
+								</script>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sethome">
+			<a ><img height=25 src="images/yqlj.png" width=70 rel="img"></a>
+			<a href="http://www.net.wang"><img height=25 src="images/net.png" width=70 rel="img"></a>
+			<a href="http://www.185.info/"><img height=25 src="images/185.png" width=70 rel="img"></a>
+			<a href="https://www.zc.biz/"><img height=25 src="images/zc.png" width=70 rel="img"></a>
+			<a href="http://www.zcze.net/"><img height=25 src="images/zcze.png" width=70 rel="img"></a>
+			<a href="mailto:"><img height=25 src="images/yx.png" width=70 rel="img"></a>
+			<a href="https://beian.miit.gov.cn/"><img height=25 src="images/ba.png" width=70 rel="img"></a>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/ilive.js"></script>
+</body>
+
+</html>
